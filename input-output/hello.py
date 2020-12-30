@@ -1,2 +1,5 @@
-def hello_world():
-    # return Hello World! as string
+def hello_world ():
+    return "Hello World!"
+
+
+
