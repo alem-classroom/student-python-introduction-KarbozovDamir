@@ -4,14 +4,14 @@ def add(first, second):
 
 def sub(first, second):
     # return subtraction of first and second arguments
-
+    return first - second
 def multiply(first, second):
     # return multiplicatiom of first and second arguments
-
+    return first * second
 def div_with_floor(first, second):
     # return division with floor of first and second arguments
-
+    return first // second
 
 def div_without_floor(first, second):
     # return division without floor of first and second arguments
-
+    return first / second
