@@ -7,12 +7,13 @@ def concat_strings(first, second):
     return (first + second)
 
 def duplicate_string(str, copy):
-    return (str*3)
+    return ('str' * 3)
     # return new string which is copy of str copy times
     # example -> duplicate_string('s', 2) == 'ss'
 
 def reverse(str):
     # return reverse of the string
+    return reverse(str)
 
 def is_substring(str, substr):
     # return true if substr is the substring of str, false otherwise
