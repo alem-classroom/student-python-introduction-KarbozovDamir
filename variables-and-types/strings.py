@@ -16,4 +16,7 @@ def reverse(str):
     return reverse(str)
 
 def is_substring(str, substr):
-    # return true if substr is the substring of str, false otherwise
+    if substr in str:
+        return True
+    else:
+        return False
