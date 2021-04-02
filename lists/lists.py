@@ -21,11 +21,9 @@ def count_elements_in_list(list, x):
     # count elements in the list that are equal to x and return the count
 
 def sort_list(list):
-    list.sort()
-    return list
+    return list.sort()
     # return sorted list
 
 def reverse(list):
-    list.reverse()
-    return list
+    return list.reverse()
     # return reversed list
