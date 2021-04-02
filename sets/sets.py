@@ -19,8 +19,10 @@ def are_sets_equal(first_set, second_set):
     # return true if sets have the same elements inside, otherwise false
 
 def add_elem_to_set(set, elem):
-    set.add(elem)
-    return set
+    if elem not in set:
+        set.add(elem)  # set.add(elem)
+    else:
+        return set  # return set
     # add elem to the set if elem does not exist in set, and return the set
     # if elem exists in set, return set
 
